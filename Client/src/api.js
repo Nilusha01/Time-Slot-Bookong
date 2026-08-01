@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/bookings';
+const API_URL = 'https://time-slot-bookong.onrender.com ';
 
 export const getBookings = () => axios.get(API_URL);
 export const createBooking = (data) => axios.post(API_URL, data);
